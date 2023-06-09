@@ -4,7 +4,8 @@
 #Packages
 if(!require("ggplot2")){
   install.packages("ggplot2")
-}else if(!require("reshape2")){
+}
+if(!require("reshape2")){
   install.packages("reshape2")
 }
 
