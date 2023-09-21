@@ -73,7 +73,7 @@ M_Hallvadero=c(0,0,0,1,1,1,96,1,1,1,1)
 M_Laso=c(0,0,0,0,0,1,1,96,1,1,1)
 M_Hesselo=c(0,0,0,0,0,0,1,1,96,1,1)
 M_Anholt=c(0,1,0,0,0,0,1,1,1,95,1)
-M_SWKattegat=c(0,0,0,0,0,0,1,1,1,1,96) 
+M_SWKattegat=c(0,0,0,0,0,0,1,1,1,1,96) #migration matrix
 
 M =rbind(M_Koster,M_Vaderoarna,M_Lysekil,M_Marstrand,M_Onsala,M_Varberg,M_Hallvadero,M_Laso,M_Hesselo,M_Anholt,M_SWKattegat)/100
 
