@@ -118,7 +118,7 @@ for(i in 1:reps){
                 Target_ages = NULL,
                 H_skew = NULL,
                 H_d = NULL,
-                P_D = P_D,#looks like disease is only being applied to last iteration
+                P_D = P_D,
                 O_D = O_D,
                 W_D = W_D,
                 M = M,
