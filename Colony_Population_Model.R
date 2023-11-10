@@ -71,8 +71,8 @@ PopMod = function(t, A, Kc, P, B, S, R, Hc, H_delay, H_sk, proportion, P_D, O_D,
     
   } 
   
-  null_args = list(H_sk,E_sk)
-  null_args_names = c("H_sk","E_sk")
+  null_args = list(H_sk)
+  null_args_names = c("H_sk")
   for(i in 1:length(null_args)){
     if(is.null(null_args[[i]])){
       assign(paste0(null_args_names[i]), 0)
